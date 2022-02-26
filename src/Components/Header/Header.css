@@ -1,0 +1,57 @@
+.header__container{
+
+    padding-top: 65px;
+    /* margin-right: 80px; */
+    padding-right: 0;
+    padding-left: 80px;
+   
+    display: flex;
+    align-items: center;
+}
+.container__logo{
+    width: 10%;
+}
+
+.header__info__container{  
+    display: flex;
+    height: 53.6px;
+    width: 70%;
+    justify-content: center;
+    align-items: center ;
+    gap: 80px;
+    
+     
+}
+.header__info{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: #C3B9B5;
+    cursor: pointer;
+    
+}
+.city {
+     width: 20%;
+     
+     color: #FFC59E;    
+     display: flex;
+     justify-content: flex-end;
+     font-size: 20px;
+     
+
+    
+}
+.city__info{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFC59E; 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.place {
+height: 29.03196907043457px;
+width: 20px;
+}
