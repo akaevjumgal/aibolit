@@ -22,39 +22,57 @@ export default function Footer(){
                  <div className='confidational'>
                      <p>Политика <br/> конфиденциальности в отношении обработки персональных данных</p>
                  </div>
-                 <div>
+                 <div className='footer__list'>
                      <ul>
                          <li>
                          <a href="">Главная</a>
                          </li>
                          <li>
-                         <a href="">Главная</a>
+                         <a href="">Услуги и цены</a>
                          </li>
                          <li>
-                         <a href="">Главная</a>
+                         <a href="">История компании</a>
                          </li>
                          <li>
-                         <a href="">Главная</a>
+                         <a href="">Наши специалисты</a>
                          </li>
                          <li>
-                         <a href="">Главная</a>
+                         <a href="">Вакансии</a>
                          </li>
                          <li>
-                         <a href="">Главная</a>
+                         <a href="">Реквизиты</a>
                          </li>
                          <li>
-                         <a href="">Главная</a>
+                         <a href="">Онлайн-оплата</a>
                          </li>
                      </ul>
-                 </div>
-                 <div>
                      <ul>
+                     <li>
+                         <a href="">Главная</a>
+                         </li>
                          <li>
-                             
-                             
+                         <a href="">Услуги и цены</a>
+                         </li>
+                         <li>
+                         <a href="">История компании</a>
+                         </li>
+                         <li>
+                         <a href="">Наши специалисты</a>
+                         </li>
+                         <li>
+                         <a href="">Вакансии</a>
+                         </li>
+                         <li>
+                         <a href="">Реквизиты</a>
+                         </li>
+                         <li>
+                         <a href="">Онлайн-оплата</a>
                          </li>
                      </ul>
                  </div>
+                 
+                    
+                 
             </div>
         </div>
     )
