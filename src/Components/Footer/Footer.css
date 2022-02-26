@@ -1,0 +1,42 @@
+.footer{
+    padding-top: 80px;
+    padding-left: 100px ;
+    width: 100%;
+    height: auto;
+    background: #59443F;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+.footer__aibolit {
+    display: flex;
+    
+   
+}
+.footer__aibolit__title{
+    margin-left: 22px;
+    cursor: pointer;
+
+
+}
+.footer__description {
+    /* width: 45%; */
+    padding-top: 40px ;
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center;
+    gap: 100px;
+}
+.confidational {
+    width: 15%;
+}
+.footer__list{
+    width: 45%;
+    display: flex;
+    gap: 100px;
+} 
