@@ -1,0 +1,9 @@
+
+.Container {
+  display: flex;
+}
+
+.Sidebar {
+  width: 30vw;
+  margin-right: 2rem;
+}
