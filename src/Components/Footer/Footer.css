@@ -1,9 +1,10 @@
 .footer{
     padding-top: 80px;
     padding-left: 100px ;
+    padding-bottom: 60px;
     width: 100%;
     height: auto;
-    background: #59443F;
+    background: var(--brown);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -15,22 +16,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer__aibolit {
     display: flex;
-    
+    height: auto ;
    
 }
 .footer__aibolit__title{
     margin-left: 22px;
     cursor: pointer;
-
-
 }
 .footer__description {
-    /* width: 45%; */
     padding-top: 40px ;
-    display: flex;
-    /* align-items: center;  */
-    justify-content: center;
+    display: flex;   
+    /* justify-content: center; */
     gap: 100px;
+    margin-left: 120px;
+    width: 100%;
 }
 .confidational {
     width: 15%;
@@ -39,4 +38,41 @@ h1,h2,h3,h4,h5,h6 {
     width: 45%;
     display: flex;
     gap: 100px;
+    
 } 
+.footer__info {
+    text-decoration: none;
+    color: white;
+    
+}
+.footer__list__1{
+    list-style-type: none;
+}
+.footer__list__2{
+    list-style-type: none;
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    right: 233px;
+    
+}
+.footer__download {
+    display: flex;
+    align-items: center;
+    
+}
+.footer__social {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+.footer__mail {
+ margin-top: 30px;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ 
+}
