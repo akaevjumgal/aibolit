@@ -1,4 +1,5 @@
-import './Header.css'
+import './Header.css';
+import { Link } from "react-router-dom";
 
 export default function Header(){
 
@@ -7,14 +8,14 @@ export default function Header(){
     return(
         <div className="header__container">
             <div className="container__logo">
-                <a href="" className="logo"><img src={'/img/Logo.svg'} alt="Логотип" /></a>
+                <Link to='#' className="logo"><img src={'/img/Logo.svg'} alt="Логотип" /></Link>
             </div>
             <div className="header__info__container">
-                <a className='header__info' href="#">Личный кабинет</a>
-                <a className='header__info' href="#">О нас</a>
-                <a className='header__info' href="#">Новости и акции</a>
-                <a className='header__info' href="#">Контакты</a>
-                <a className='header__info' href="#">Блог</a>
+               <Link to='#' className='header__info'> Личный кабинет</Link>
+               <Link to='#' className='header__info'> О нас</Link>
+               <Link to='#' className='header__info'>Новости и акции</Link>
+               <Link to='#' className='header__info'> Контакты</Link>
+               <Link to='#' className='header__info'> Блог</Link>
             </div>
             
                 <div className='city__info'>
