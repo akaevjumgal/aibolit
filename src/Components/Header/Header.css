@@ -12,6 +12,11 @@
     width: 10%;
 }
 
+.active {
+    color: var(--brown);
+    font-size: large;
+    text-decoration: none;
+}
 .header__info__container{  
     display: flex;
     height: 53.6px;
@@ -20,8 +25,6 @@
     align-items: center ;
     gap: 80px;
     text-transform: uppercase
-    
-     
 }
 .header__info{
     position: relative;
@@ -29,7 +32,10 @@
     font-size: large;
     color: var(--light-brown);
     cursor: pointer;
-    
+    transition-duration: 0.3s; 
+}
+.header__info:hover {
+    color: var(--brown);
 }
 .city {
      width: 20%;
