@@ -38,7 +38,7 @@ export default function Footer(){
             </div>
             <div className="footer__description">
                  <div className='confidational'>
-                     <p>Политика <br/> конфиденциальности в отношении обработки персональных данных</p>
+                   <Link to='#'><p>Политика <br/> конфиденциальности в отношении обработки персональных данных</p></Link>  
                  </div>
                  <div className='footer__list'>
                      <ul className='footer__list__1'>
