@@ -2,12 +2,9 @@
     padding-top: 80px;
     padding-left: 100px ;
     padding-bottom: 60px;
-    width: 100%;
+    width: 100vw;
     height: auto;
     background: var(--brown);
-    position: fixed;
-    left: 0;
-    bottom: 0;
     color: white;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -74,5 +71,4 @@ h1,h2,h3,h4,h5,h6 {
  display: flex;
  flex-direction: column;
  align-items: flex-start;
- 
 }
