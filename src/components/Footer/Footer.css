@@ -30,6 +30,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .confidational {
     width: 15%;
+
 }
 .footer__list{
     width: 45%;
@@ -71,4 +72,7 @@ h1,h2,h3,h4,h5,h6 {
  display: flex;
  flex-direction: column;
  align-items: flex-start;
+}
+a {
+    color:white;
 }
