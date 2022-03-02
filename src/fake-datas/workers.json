@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Иванова Анастасия Андреевна",
+        "url": "ivanova-anastasiya",
+        "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
+        "exp": 120,
+        "img": "spec-photo/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Константинопольский Константин Константинович",
+        "url": "konstantinopolskiy-konstantin",
+        "specialization": "Врач общей практики",
+        "exp": 60,
+        "img": "spec-photo/2.png"
+    },
+    {
+        "id": 3,
+        "name": "Машева Маша Мариевна",
+        "url": "masheva-masha",
+        "specialization": "Анестезиология, стоматология, лаборатория",
+        "exp": 48,
+        "img": "spec-photo/3.png"
+    },
+    {
+        "id": 4,
+        "name": "Острокозырьковый Томас Шелбивич",
+        "url": "ostrokozyrkovyi-tomas",
+        "specialization": "Врач общей практики",
+        "exp": 8,
+        "img": "spec-photo/4.png"
+    },
+    {
+        "id": 5,
+        "name": "Большой Лебовски Гдеденьгевич",
+        "url": "bolshoi-lebovski",
+        "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
+        "exp": 100,
+        "img": "spec-photo/1.png"
+    },
+    {
+        "id": 6,
+        "name": "Киберпанков Киану Ривзович",
+        "url": "cyberpunkov-keanu",
+        "specialization": "Хирургия, ортопедия, лаборатория",
+        "exp": 20,
+        "img": "spec-photo/3.png"
+    },
+    {
+        "id": 7,
+        "name": "Паблов Вася Пикасович",
+        "url": "pablov-vasya",
+        "specialization": "Анестезиология, стоматология, лаборатория, терапия, УЗИ-диагностика",
+        "exp": 40,
+        "img": "spec-photo/4.png"
+    },
+    {
+        "id": 8,
+        "name": "Битлов Евгений Леннович",
+        "url": "bitlov-evgeniy",
+        "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
+        "exp": 3,
+        "img": "spec-photo/2.png"
+    }
+]

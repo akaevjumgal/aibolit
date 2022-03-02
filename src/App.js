@@ -4,6 +4,7 @@ import PageLayout from "./modules/PageLayout/PageLayout";
 import SidebarLayout from "./modules/SidebarLayout/SidebarLayout";
 import NavigationContext from "./navigation.context";
 import HomePage from "./pages/HomePage/HomePage";
+import "swiper/css/bundle";
 
 const ServicesPage = () => {
   const { setNavigation } = useContext(NavigationContext);
@@ -25,6 +26,7 @@ function App() {
     <NavigationContext.Provider value={{ navigation, setNavigation }}>
       <Routes>
         <Route element={<PageLayout />}>
+        <Route index element={<HomePage />} />
             <Route 
               element={
                 <SidebarLayout 
@@ -32,7 +34,7 @@ function App() {
                   links={navigation.links} 
                 />
             }>
-              <Route index element={<HomePage />} />
+             
               <Route path="/services" element={<ServicesPage />} />
             </Route>
         </Route>
