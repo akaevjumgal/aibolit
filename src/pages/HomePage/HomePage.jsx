@@ -1,7 +1,10 @@
-import SitySelectorModule from "../../modules/SitySelectorModule/SitySelectorModule";
+import SectionOne from "../../modules/HomePage/section-one/SectionOne";
 
 export default function HomePage() {
   return (
-    <SitySelectorModule />
+    <>
+      <SectionOne />
+    </>
+    
   )
 }
