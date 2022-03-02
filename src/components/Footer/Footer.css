@@ -76,3 +76,13 @@ h1,h2,h3,h4,h5,h6 {
 a {
     color:white;
 }
+.footer__social a {
+    background-color: #DDD4F3;
+    transition: background-color 0.2s;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.footer__social a :hover {
+    background-color: var(--brown);
+} 
