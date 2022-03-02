@@ -1,0 +1,105 @@
+
+.SectionOne {
+    margin-top: 40px;
+    width: 100%;
+    height: calc(100vh - 172px);
+    min-height: 500px;
+    max-height: 900px;
+}
+.SectionOne__img {
+    user-select: none;
+    width: auto !important;
+    max-width: 40% ;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    max-height: 100%;
+}
+.SectionOne__img1{
+    right: 0;
+}
+.SectionOne__img3 {
+    right: 10%;
+}
+.SectionOne__img6 {
+    bottom: 60px;
+}
+
+
+.SectionOne__slider-element {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 172px);
+    min-height: 500px;
+    max-height: 900px;
+
+}
+.SectionOne__slider-element h2 {
+    text-align: start;
+    white-space: pre-line;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.control-dots {
+    display: grid;
+    grid-template-columns: 50px;
+    grid-auto-rows: 50px;
+    row-gap: 10px;
+    left: 80px;
+    bottom: unset !important;
+    width: 60px !important;
+    top: 40px;
+}
+.dot {
+    align-self: center;
+    position: relative;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 40px !important;
+    height: 40px !important;
+    box-shadow: none !important;
+}
+.dot:first-child:before {
+    content: '1';
+}
+.dot:nth-child(2):before {
+    content: '2';
+}
+.dot:nth-child(3):before {
+    content: '3';
+}
+.dot:nth-child(4):before {
+    content: '4';
+}
+.dot:nth-child(5):before {
+    content: '5';
+}
+.dot:nth-child(6):before {
+    content: '6';
+}
+.dot::before {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+.selected[role] {
+    background-image: url(process.png) !important;
+}
+.SectionOne__phone {
+    position: absolute;
+    bottom: 50px;
+    right: 5%;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--brown);
+}
+.SectionOne__slider-element-info {
+    user-select: none;
+    height: 100%;
+    padding-top: 40px;
+    text-align: start;
+    max-width: 60%;
+    margin-left: 20%;
+}
