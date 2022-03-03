@@ -1,0 +1,114 @@
+[
+    {
+    "id": 1,
+    "name": "Терапия",
+    "url": "therapy",
+    "count": 26,
+    "img": "icons/therapy.svg"
+    },
+    {
+    "id": 2,
+    "name": "Хирургия",
+    "url": "surgery",
+    "count": 27,
+    "img": "icons/surgery.svg"
+    },
+    {
+    "id": 3,
+    "name": "Неврология",
+    "url": "neurology",
+    "count": 32,
+    "img": "icons/neurology.svg"
+    },
+    {
+    "id": 4,
+    "name": "Ортопедия",
+    "url": "orthopedics",
+    "count": 23,
+    "img": "icons/orthopedics.svg"
+    },
+    {
+    "id": 5,
+    "name": "Дерматология",
+    "url": "dermatology",
+    "count": 26,
+    "img": "icons/dermatology.svg"
+    },
+    {
+    "id": 6,
+    "name": "Офтальмология",
+    "url": "ophthalmology",
+    "count": 26,
+    "img": "icons/ophthalmology.svg"
+    },
+    {
+    "id": 7,
+    "name": "Кардиология",
+    "url": "cardiology",
+    "count": 28,
+    "img": "icons/cardiology.svg"
+    },
+    {
+    "id": 8,
+    "name": "Стоматология",
+    "url": "dentistry",
+    "count": 26,
+    "img": "icons/dentistry.svg"
+    },
+    {
+    "id": 9,
+    "name": "Репродуктология",
+    "url": "reproduction",
+    "count": 88,
+    "img": "icons/reproduction.svg"
+    },
+    {
+    "id": 10,
+    "name": "Визуальная диагностика",
+    "url": "visual-diagnostics",
+    "count": 29,
+    "img": "icons/visual-diagnostics.svg"
+    },
+    {
+    "id": 11,
+    "name": "Лаборатория",
+    "url": "laboratory",
+    "count": 26,
+    "img": "icons/laboratory.svg"
+    },
+    {
+    "id": 12,
+    "name": "Онкология",
+    "url": "oncology",
+    "count": 26,
+    "img": "icons/oncology.svg"
+    },
+    {
+    "id": 13,
+    "name": "Эндокринология",
+    "url": "endocrinology",
+    "count": 26,
+    "img": "icons/endocrinology.svg"
+    },
+    {
+    "id": 14,
+    "name": "Экзотические животные",
+    "url": "exotic",
+    "count": 23,
+    "img": "icons/exotic.svg"
+    },
+    {
+    "id": 15,
+    "name": "Аптека",
+    "url": "pharmacy",
+    "count": 11,
+    "img": "icons/pharmacy.svg"
+    },
+    {
+    "id": 16,
+    "name": "Груминг",
+    "url": "grooming",
+    "count": 26,
+    "img": "icons/grooming.svg"
+    }                                                                                                                                                                                                                                         
+]
