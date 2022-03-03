@@ -1,0 +1,133 @@
+.contact {
+    position: absolute;
+    left: 230px;
+    top: 265px;
+    font-family: SchoolBook;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  .add {
+    position: absolute;
+    top: 375px;
+    left: 230px;
+    font-family: SchoolBook;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  .gps {
+    position: absolute;
+    left: 243px;
+    top: 445px;
+  
+  }
+  
+  .address {
+    position: absolute;
+    width: 318px;
+    height: 50px; 
+    left: 296px;
+    top: 435px;
+    font-family: Futura New;
+    font-size: 20px;
+    line-height: 20px;
+    color: #59443F;
+  }
+  
+  .phone {
+    position: absolute;
+    top: 522px;
+    left: 241px;
+  }
+  
+  .number {
+    position: absolute;
+    top: 524px;
+    left: 296px;
+    font-family: Futura New;
+    font-size: 20px;
+    line-height: 20px;
+    color: #59443F;
+  }
+  
+  .clock {
+    position: absolute;
+    left: 241px;
+    top: 582px;
+  }
+  
+  .time {
+    position: absolute;
+    left: 296px;
+    top: 585px;
+    font-family: Futura New;
+    font-size: 20px;
+    line-height: 20px;
+    color: #59443F;
+  }
+  
+  .addr {
+    position: absolute;
+    left: 230px;
+    top: 658px;
+    font-family: SchoolBook;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  .gps1 {
+    position: absolute;
+    left: 243px;
+    top: 728px;
+  }
+  
+  .address1 {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    left: 296px;
+    top: 700px;
+    font-family: Futura New;
+    font-size: 20px;
+    line-height: 20px;
+    color: #59443F;
+  }
+  
+  .phone1 {
+    position: absolute;
+    top: 805px;
+    left: 241px;
+  }
+  
+  .number1 {
+    position: absolute;
+    top: 807px;
+    left: 296px;
+    font-family: Futura New;
+    font-size: 20px;
+    line-height: 20px;
+    color: #59443F;
+  }
+  
+  .clock1 {
+    position: absolute;
+    left: 241px;
+    top: 865px;
+  }
+  
+  .time1 {
+    position: absolute;
+    left: 296px;
+    top: 868px;
+    font-family: Futura New;
+    font-size: 20px;
+    line-height: 20px;
+    color: #59443F;
+  }
+  
+  .map {
+    position: absolute;
+    left: 740px;
+    top: 375px;
+  }
