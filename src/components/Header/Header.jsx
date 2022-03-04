@@ -32,7 +32,7 @@ export default function Header(){
     }
 
     const getActiveStyles = (label) => {
-        return label === active ? 'active' : 'header__info'
+        return label === active ? 'active' : 'header__info'                        
     }
 
     return(
