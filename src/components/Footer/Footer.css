@@ -16,11 +16,12 @@ h1,h2,h3,h4,h5,h6 {
 .footer__aibolit {
     display: flex;
     height: auto ;
-   
+    width: 80%;
 }
 .footer__aibolit__title{
     margin-left: 22px;
     cursor: pointer;
+    
 }
 .footer__description {
     padding-top: 40px ;
@@ -38,6 +39,7 @@ h1,h2,h3,h4,h5,h6 {
     gap: 100px;
     
 } 
+
 .footer__info {
     text-decoration: none;
     color: white;
@@ -54,7 +56,7 @@ h1,h2,h3,h4,h5,h6 {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    right: 233px;
+    right: 7%;
     
 }
 .footer__download {
@@ -64,7 +66,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer__social {
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
+    width: 100%;
     margin-top: 40px;
 }
 .footer__mail {

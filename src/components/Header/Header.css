@@ -27,7 +27,6 @@
     text-transform: uppercase
 }
 .header__info{
-    position: relative;
     text-decoration: none;
     font-size: large;
     color: var(--light-brown);
