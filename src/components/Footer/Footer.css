@@ -1,13 +1,13 @@
 .footer{
     padding-top: 80px;
-    padding-left: 100px;
-    box-sizing: border-box;
-    width: 100%;
+    padding-left: 5% ;
+    padding-bottom: 60px;
     height: auto;
-    background: #59443F;
-    left: 0;
-    bottom: 0;
+    background: var(--brown);
     color: white;
+    left: 0;
+    right: 0;
+   bottom: 0;
 }
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
@@ -15,28 +15,89 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer__aibolit {
     display: flex;
-    
-   
+    height: auto ;
+    width: 80%;
 }
 .footer__aibolit__title{
     margin-left: 22px;
     cursor: pointer;
-
-
+    
 }
 .footer__description {
-    /* width: 45%; */
     padding-top: 40px ;
-    display: flex;
-    /* align-items: center;  */
-    justify-content: center;
+    display: flex;   
     gap: 100px;
+    flex-wrap: wrap;
+    margin-left: 120px;  
 }
-.confidational {
+.confidational  {
     width: 15%;
+}
+.confidational a {
+    color: white;
+}
+.confidational :hover {
+    color: var(--orange);
 }
 .footer__list{
     width: 45%;
     display: flex;
     gap: 100px;
+    
+} 
+
+.footer__info {
+    text-decoration: none;
+    color: white;
+    
+}
+.footer__list__1 :hover {
+    color: var(--orange);
+}
+.footer__list__1 {
+    list-style-type: none;
+    
+}
+.footer__list__2{
+    list-style-type: none;
+}
+.footer__list__2 :hover {
+    color: var(--orange);
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    right: 7%;
+    
+}
+.footer__download {
+    display: flex;
+    align-items: center;
+    
+}
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+        margin-top: 40px;
+}
+.footer__mail {
+ margin-top: 30px;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+
+.footer__social a {
+    background-color: #DDD4F3;
+    transition: background-color 0.2s;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.footer__social a :hover {
+    background-color: var(--orange);
+    border-radius: 50%;
 } 
