@@ -4,7 +4,6 @@ import PageLayout from "./modules/PageLayout/PageLayout";
 import SidebarLayout from "./modules/SidebarLayout/SidebarLayout";
 import NavigationContext from "./navigation.context";
 import HomePage from "./pages/HomePage/HomePage";
-import "swiper/css/bundle";
 import TeamPage from './pages/teamPage/TeamPage';
 import SpecialistPage from "./pages/SpecialistPage/SpecialistPage";
 
