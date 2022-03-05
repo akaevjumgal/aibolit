@@ -11,7 +11,7 @@ export default function PersonalAccountPage() {
 return (
   <div style={{display:'flex'}}>
     <div style={{marginTop:'10%'}} className="Personal-sidebar">
-        <SidebarLayout title={users.FirstName} links = {[
+        {/* <SidebarLayout title={users.FirstName} links = {[
           { id: 1,
             title:'Личные данные'
           }
@@ -25,7 +25,7 @@ return (
           { id: 4,
             title:'Выйти'
           }
-          ]}/>
+          ]}/> */}
     </div>
     <ClientCard/>
    </div>
