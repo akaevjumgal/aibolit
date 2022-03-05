@@ -1,0 +1,37 @@
+.slick-arrow {
+    width: 40px;
+    height: 40px;
+    background: none;
+}
+.slick-arrow::before {
+    color: var(--orange);
+    opacity: 0.9;
+    /* box-shadow: 0px 2px 10px rgba(155, 82, 50, 0.5); */
+    font-size: 40px;
+    background: transparent;
+    transition: 0.2s all;
+}
+.slick-prev {
+    left: -40px;
+    z-index: 2000;
+}
+.slick-next{
+    right: 0;
+}
+.slick-disabled {
+    opacity: 0;
+}
+.slick-list {
+    padding-left: 1px;
+}
+.SpecialistPage h1{
+    font-size: 30px;
+}
+.SpecialistPage>p{
+    color:var(--brown);
+    margin-top: 30px;
+}
+.SpecialistPage_smallP{
+    color: var(--light-brown) !important;
+    margin-top: 10px !important;
+}

@@ -4,63 +4,111 @@
         "name": "Иванова Анастасия Андреевна",
         "url": "ivanova-anastasiya",
         "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
-        "exp": 120,
-        "img": "spec-photo/1.png"
+        "exp": "стаж 10 лет",
+        "img": "spec-photo/1.png",
+        "profession": "врач",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 2,
         "name": "Константинопольский Константин Константинович",
         "url": "konstantinopolskiy-konstantin",
         "specialization": "Врач общей практики",
-        "exp": 60,
-        "img": "spec-photo/2.png"
+        "exp": "стаж 5 лет",
+        "img": "spec-photo/2.png",
+        "profession": "врач",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 3,
         "name": "Машева Маша Мариевна",
         "url": "masheva-masha",
         "specialization": "Анестезиология, стоматология, лаборатория",
-        "exp": 48,
-        "img": "spec-photo/3.png"
+        "exp": "стаж 4 года",
+        "img": "spec-photo/3.png",
+        "profession": "ассистент ветеринарного врача",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 4,
         "name": "Острокозырьковый Томас Шелбивич",
         "url": "ostrokozyrkovyi-tomas",
         "specialization": "Врач общей практики",
-        "exp": 8,
-        "img": "spec-photo/4.png"
+        "exp": "стаж 8 месяцев",
+        "img": "spec-photo/4.png",
+        "profession": "ординатор",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 5,
         "name": "Большой Лебовски Гдеденьгевич",
         "url": "bolshoi-lebovski",
         "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
-        "exp": 100,
-        "img": "spec-photo/1.png"
+        "exp": "стаж 8 лет",
+        "img": "spec-photo/1.png",
+        "profession": "врач",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 6,
         "name": "Киберпанков Киану Ривзович",
         "url": "cyberpunkov-keanu",
         "specialization": "Хирургия, ортопедия, лаборатория",
-        "exp": 20,
-        "img": "spec-photo/3.png"
+        "exp": "стаж 2 года",
+        "img": "spec-photo/3.png",
+        "profession": "врач",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 7,
         "name": "Паблов Вася Пикасович",
         "url": "pablov-vasya",
         "specialization": "Анестезиология, стоматология, лаборатория, терапия, УЗИ-диагностика",
-        "exp": 40,
-        "img": "spec-photo/4.png"
+        "exp": "стаж 4 года",
+        "img": "spec-photo/4.png",
+        "profession": "ассистент ветеринарного врача",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 8,
         "name": "Битлов Евгений Леннович",
         "url": "bitlov-evgeniy",
         "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
-        "exp": 3,
-        "img": "spec-photo/2.png"
+        "exp": "стаж 3 месяца",
+        "img": "spec-photo/2.png",
+        "profession": "ординатор",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     }
 ]
