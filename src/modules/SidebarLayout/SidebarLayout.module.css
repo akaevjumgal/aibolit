@@ -1,9 +1,29 @@
 
 .Container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8vh;
 }
 
 .Sidebar {
-  width: 30vw;
+  width: 100%;
   margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.Sidebar h1 {
+  font-size: 50px;
+  margin-bottom: 10vh;
+}
+.Sidebar a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #C3B9B5;
+  margin-bottom: 3vh;
+  transition: 0.2s all;
+}
+.Sidebar a:hover {
+  color: var(--brown);
 }

@@ -1,0 +1,18 @@
+
+.TeamPage {
+    width: 100%;
+}
+.TeamPage > img {
+    border-radius: 20px;
+    width: 100%;
+}
+.TeamPage h2 {
+    margin: 30px 0;
+}
+
+.TeamPageSpecialists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    gap: 20px;
+}

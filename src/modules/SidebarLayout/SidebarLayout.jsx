@@ -9,9 +9,7 @@ export default function SidebarLayout({ title, links = [] }) {
         <h1>{title}</h1>
         {links}
       </div>
-      <div>
-        <Outlet />
-      </div>
+      <Outlet />
     </div>
   )
 }

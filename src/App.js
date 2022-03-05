@@ -5,15 +5,16 @@ import SidebarLayout from "./modules/SidebarLayout/SidebarLayout";
 import NavigationContext from "./navigation.context";
 import HomePage from "./pages/HomePage/HomePage";
 import "swiper/css/bundle";
+import TeamPage from './pages/teamPage/TeamPage';
 
 const ServicesPage = () => {
   const { setNavigation } = useContext(NavigationContext);
 
   useEffect(() => {
-    setNavigation({ title: 'Терапия', links: ['1 link', '2 link'] })
+    setNavigation({ title: 'Терапия', links: [<a href ="#">О НАС</a>, <a href ="#">СПЕЦИАЛИСТЫ</a>] })
   }, [])
 
-  return 'Service Page'
+  return <div style={{height:'400vh'}}>'Service Page'</div>
 }
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
             }>
              
               <Route path="/services" element={<ServicesPage />} />
+              <Route path="/team" element={<TeamPage />} />
+
             </Route>
         </Route>
       </Routes>
