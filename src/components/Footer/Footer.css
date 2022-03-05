@@ -101,3 +101,9 @@ h1,h2,h3,h4,h5,h6 {
     background-color: var(--orange);
     border-radius: 50%;
 } 
+.footer__aibolit__title a {
+    color: white;
+}
+.footer__aibolit__title  :hover {
+    color: var(--orange);
+}

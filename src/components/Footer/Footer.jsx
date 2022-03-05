@@ -11,11 +11,13 @@ export default function Footer(){
         
             <div className='footer__aibolit'>
                 <div className="footer__logo">
-                    <img src={'/img/footerLogo.svg'} alt="sdas" />
+                    <Link to='/'><img src={'/img/footerLogo.svg'} alt="sdas" /> </Link>
                 </div>
                 <div className="footer__aibolit__title">
+                <Link to='/'>
                     <h2 style={{fontSize:'50px'}}>Айболит</h2> 
                     <h5>ветеринарная клиника</h5>
+                </Link>
 
                 </div>
             <div className="footer__contacts">

@@ -5,7 +5,7 @@ import { useState } from 'react';
 const NavigationLinks = [
     {
         label: 'Личный кабинет',
-        link: '#',
+        link: '/PersonalAccount',
     }, 
     {
         label: 'О нас',
@@ -38,7 +38,7 @@ export default function Header(){
     return(
         <div className="header__container">
             <div className="container__logo">
-               <Link to='#' onClick={()=> setActive('')} className="logo"><img src={'/img/Logo.svg'} alt="Логотип" /></Link>
+               <Link to='/' onClick={()=> setActive('')} className="logo"><img src={'/img/Logo.svg'} alt="Логотип" /></Link>
             </div>
             <div className="header__info__container">
                 {NavigationLinks.map(({ label, link }) => (

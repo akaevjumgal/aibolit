@@ -5,6 +5,7 @@ import SidebarLayout from "./modules/SidebarLayout/SidebarLayout";
 import NavigationContext from "./navigation.context";
 import HomePage from "./pages/HomePage/HomePage";
 import "swiper/css/bundle";
+import PersonalAccountPage from './pages/PersonalAccountPage.jsx/PersonalAccountPage';
 
 const ServicesPage = () => {
   const { setNavigation } = useContext(NavigationContext);
@@ -27,6 +28,7 @@ function App() {
       <Routes>
         <Route element={<PageLayout />}>
         <Route index element={<HomePage />} />
+        <Route path="/PersonalAccount" element={<PersonalAccountPage/>} />
             <Route 
               element={
                 <SidebarLayout 
