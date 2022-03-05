@@ -6,6 +6,7 @@ import NavigationContext from "./navigation.context";
 import HomePage from "./pages/HomePage/HomePage";
 import "swiper/css/bundle";
 import TeamPage from './pages/teamPage/TeamPage';
+import SpecialistPage from "./pages/SpecialistPage/SpecialistPage";
 
 const ServicesPage = () => {
   const { setNavigation } = useContext(NavigationContext);
@@ -38,6 +39,8 @@ function App() {
              
               <Route path="/services" element={<ServicesPage />} />
               <Route path="/team" element={<TeamPage />} />
+              <Route path="team/:specURL" element={<SpecialistPage />} />
+
 
             </Route>
         </Route>

@@ -6,7 +6,12 @@
         "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
         "exp": "стаж 10 лет",
         "img": "spec-photo/1.png",
-        "profession": "врач"
+        "profession": "врач",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 2,
@@ -15,7 +20,12 @@
         "specialization": "Врач общей практики",
         "exp": "стаж 5 лет",
         "img": "spec-photo/2.png",
-        "profession": "врач"
+        "profession": "врач",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 3,
@@ -24,7 +34,12 @@
         "specialization": "Анестезиология, стоматология, лаборатория",
         "exp": "стаж 4 года",
         "img": "spec-photo/3.png",
-        "profession": "ассистент ветеринарного врача"
+        "profession": "ассистент ветеринарного врача",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 4,
@@ -33,7 +48,12 @@
         "specialization": "Врач общей практики",
         "exp": "стаж 8 месяцев",
         "img": "spec-photo/4.png",
-        "profession": "ординатор"
+        "profession": "ординатор",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 5,
@@ -42,7 +62,12 @@
         "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
         "exp": "стаж 8 лет",
         "img": "spec-photo/1.png",
-        "profession": "врач"
+        "profession": "врач",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 6,
@@ -51,7 +76,12 @@
         "specialization": "Хирургия, ортопедия, лаборатория",
         "exp": "стаж 2 года",
         "img": "spec-photo/3.png",
-        "profession": "врач"
+        "profession": "врач",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 7,
@@ -60,7 +90,12 @@
         "specialization": "Анестезиология, стоматология, лаборатория, терапия, УЗИ-диагностика",
         "exp": "стаж 4 года",
         "img": "spec-photo/4.png",
-        "profession": "ассистент ветеринарного врача"
+        "profession": "ассистент ветеринарного врача",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     },
     {
         "id": 8,
@@ -69,6 +104,11 @@
         "specialization": "Терапия, УЗИ-диагностика, хирургия, ортопедия, лаборатория",
         "exp": "стаж 3 месяца",
         "img": "spec-photo/2.png",
-        "profession": "ординатор"
+        "profession": "ординатор",
+        "details": {
+            "nearestDate": "29.03.2022",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ip",
+            "education": [{"year": 2016, "course": "Повышение квалификации"}, {"year": 2018, "course": "Название курса"}, {"year": 2016, "course": "Международная конференция Конференция"}, {"year": 2019, "course": "Обучение по направлению хирургия"}]
+        }
     }
 ]
