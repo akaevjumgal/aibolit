@@ -18,7 +18,7 @@ export default function TeamPage () {
 
     return (
         <main className={styles.TeamPage}>
-        <img src="img/TeamPage/team.png" alt="teamPhoto" />
+        <img src="/img/TeamPage/team.png" alt="teamPhoto" />
         <div id="about">
             <h2>О нас</h2>
             <p>
