@@ -1,7 +1,8 @@
 
 .Container {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 30% 68%;
+  gap: 2%;
   width: 80%;
   margin: 0 auto;
   margin-top: 8vh;
@@ -9,9 +10,9 @@
 
 .Sidebar {
   width: 100%;
-  margin-right: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 .Sidebar h1 {
   font-size: 50px;

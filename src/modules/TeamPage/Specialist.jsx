@@ -12,7 +12,7 @@ export default function Specialist ({spec}) {
         <Link to ={spec.url}>
             <div className={styles.SpecialistCard}>
                 <div className={styles.SpecialistCardFirst}>
-                    <img src={spec.img} alt={spec.name} />
+                    <img src={`/${spec.img}`} alt={spec.name} />
                     <p>{spec.exp}</p>
                 </div>
                 <div className={styles.SpecialistCardSecond}>
