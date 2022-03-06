@@ -54,7 +54,7 @@ export default function Footer(){
                          <Link to='#' className='footer__info'>История компании</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Наши специалисты</Link>
+                         <Link to='/team' className='footer__info'>Наши специалисты</Link>
                          </li>
                          <li>
                          <Link to='#' className='footer__info'>Вакансии</Link>

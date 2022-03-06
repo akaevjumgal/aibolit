@@ -1,6 +1,6 @@
 import './ClientCard.css'
 
-export default function  ClientCard( ){ 
+export default function  ClientCard(  ){ 
     const user = {
         FirstName: "Виктория",
         LastName: 'Иванова',
@@ -9,7 +9,7 @@ export default function  ClientCard( ){
         About:   `Живу в Волгограде, очень люблю животных!
                   Мечтаю завести много зверей и построить приют. 
                   Пока что у меня собака, кошка и рыбки :)`,
-        avatar: "icons/Avatar.svg",
+        avatar: "/icons/Avatar.svg",
  
     }
     return(

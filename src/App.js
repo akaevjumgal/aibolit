@@ -5,7 +5,7 @@ import SidebarLayout from "./modules/SidebarLayout/SidebarLayout";
 import NavigationContext from "./navigation.context";
 import HomePage from "./pages/HomePage/HomePage";
 import "swiper/css/bundle";
-import PersonalAccountPage from './pages/PersonalAccountPage.jsx/PersonalAccountPage';
+import PersonalAccountPage from './pages/PersonalAccountPage/PersonalAccountPage';
 import TeamPage from './pages/teamPage/TeamPage';
 import SpecialistPage from "./pages/SpecialistPage/SpecialistPage";
 
@@ -30,7 +30,7 @@ function App() {
       <Routes>
         <Route element={<PageLayout />}>
         <Route index element={<HomePage />} />
-        <Route path="/PersonalAccount" element={<PersonalAccountPage/>} />
+        
             <Route 
               element={
                 <SidebarLayout 
@@ -42,6 +42,7 @@ function App() {
               <Route path="/services" element={<ServicesPage />} />
               <Route path="/team" element={<TeamPage />} />
               <Route path="team/:specURL" element={<SpecialistPage />} />
+              <Route path="/PersonalAccount" element={<PersonalAccountPage/>} />
 
 
             </Route>
