@@ -33,10 +33,10 @@ h1,h2,h3,h4,h5,h6 {
 .confidational  {
     width: 15%;
 }
-.confidational a {
+.confidational a p  {
     color: white;
 }
-.confidational :hover {
+.confidational  :hover {
     color: var(--orange);
 }
 .footer__list{
