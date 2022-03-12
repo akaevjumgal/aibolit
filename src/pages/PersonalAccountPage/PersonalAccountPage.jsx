@@ -1,5 +1,6 @@
 import React, { useContext , useEffect} from "react";
 import ClientCard from "../../modules/PersonalAccountPage/ClientCard/ClientCard";
+import Pets from "../../modules/PersonalAccountPage/Pets/Pets";
 import NavigationContext from '../../navigation.context';
 
 
@@ -18,8 +19,8 @@ export default function PersonalAccountPage() {
    })
 return (
   <div>
-    
     <ClientCard/>
+    <Pets/>
    </div>
 )
   

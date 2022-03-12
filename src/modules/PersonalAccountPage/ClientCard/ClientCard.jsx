@@ -14,10 +14,10 @@ export default function  ClientCard(  ){
     }
     return(
     <div className='Card_section'>
-        <div className="card_title">
+        <div key={'1'} className="card_title">
             <h2>Личные данные</h2>
         </div>
-        <div className="Card">
+        <div key={'2'} className="Card">
             <div className='Card_Flex_Item1'>
                 <img src={user.avatar} alt="Аватар" />
                 <p className='redact'>Изменить</p>
