@@ -1,0 +1,26 @@
+.Reseption_section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Card_Reseption_Info {
+  font-size: 13px;
+  color: var(--light-brown);
+  font-weight: 400;
+}
+.Card_Reseption_Info_Value {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.reseption_doctor {
+  width: 70%;
+}
+.Card_Flex_Item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.redact {
+  display: flex;
+  align-items: center;
+}

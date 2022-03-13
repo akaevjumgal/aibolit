@@ -24,3 +24,17 @@
 .Pets_slider .slick-slide {
     width: 100% !important ;
 }
+.Pets_slider .slick-next {
+    position: absolute;
+    transform: rotate(90deg) translate(-50%) ;
+    left: 50%;
+    top: 100%;
+    opacity: 100%;
+}
+.Pets_slider .slick-prev {
+    position: absolute;
+    transform: rotate(90deg) translate(-50%) translate(-50%) ;
+    top: 0;
+    left: 50%;
+    opacity: 100%;
+}

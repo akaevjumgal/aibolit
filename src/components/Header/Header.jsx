@@ -1,6 +1,6 @@
 import './Header.css';
-import { Link } from "react-router-dom";
-import { useState } from 'react';
+import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from 'react';
 
 const NavigationLinks = [
     {
@@ -30,6 +30,20 @@ export default function Header(){
     const activate = (label) => () => {
         setActive(label)
     }
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        
+        const labelA = NavigationLinks.find(({ link }) => link === pathname);
+        if(labelA){
+        setActive(labelA.label)}
+        else {
+            setActive('')
+        }
+       
+    }, [pathname])
+    
+
 
     const getActiveStyles = (label) => {
         return label === active ? 'active' : 'header__info'                        
@@ -38,7 +52,7 @@ export default function Header(){
     return(
         <div className="header__container">
             <div className="container__logo">
-               <Link to='/' onClick={()=> setActive('')} className="logo"><img src={'/img/Logo.svg'} alt="Логотип" /></Link>
+               <Link to='/'  className="logo"><img src={'/img/Logo.svg'} alt="Логотип" /></Link>
             </div>
             <div className="header__info__container">
                 {NavigationLinks.map(({ label, link }) => (
