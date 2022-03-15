@@ -4,11 +4,8 @@ import PageLayout from "./modules/PageLayout/PageLayout";
 import SidebarLayout from "./modules/SidebarLayout/SidebarLayout";
 import NavigationContext from "./navigation.context";
 import HomePage from "./pages/HomePage/HomePage";
-<<<<<<< HEAD
-=======
 import "swiper/css/bundle";
 import PersonalAccountPage from './pages/PersonalAccountPage/PersonalAccountPage';
->>>>>>> 330d971b5f5b99a797d3d4b9d257302aaacc5147
 import TeamPage from './pages/teamPage/TeamPage';
 import SpecialistPage from "./pages/SpecialistPage/SpecialistPage";
 
