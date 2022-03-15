@@ -1,0 +1,37 @@
+.input{
+    border: 1px solid #EDE9E8;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 50px;
+    width: 320px;
+    font-size: 20px;
+    line-height: 25px;
+    Radius: 20px;
+    margin: 0 40px;
+}
+.input:placeholder-shown+.input:placeholder-shown+.button,
+.input:placeholder-shown+.button {
+  background-color: #EDE9E8; 
+}
+
+
+.img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    
+}
+
+.h2 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #080606;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 20px;
+}
