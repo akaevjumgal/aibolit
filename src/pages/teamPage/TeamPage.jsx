@@ -11,9 +11,10 @@ export default function TeamPage () {
 
     
     useEffect(() => {
-    setNavigation({
-    title: 'Коллектив',
-    links: [<a key={'aboutus'} href ="#about">О НАС</a>, <a key={'spec'}  href ="#specialists">СПЕЦИАЛИСТЫ</a>] })
+        setNavigation({
+        title: 'Коллектив',
+        links: [<a key={'aboutus'} href ="#about">О НАС</a>, <a key={'spec'}  href ="#specialists">СПЕЦИАЛИСТЫ</a>] })
+        window.scrollTo(0, 0);
     }, [])
 
     return (

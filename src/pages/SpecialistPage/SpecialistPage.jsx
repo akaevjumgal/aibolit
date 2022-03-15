@@ -20,6 +20,7 @@ export default function SpecialistPage () {
     setNavigation({
     title: false,
     links: [<SpecialistPhoto key={specialist.url+123} specialist={specialist} />] })
+    window.scrollTo(0, 0);
     }, [])
 
     const settings = {
