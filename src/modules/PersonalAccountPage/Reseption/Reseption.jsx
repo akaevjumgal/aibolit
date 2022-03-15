@@ -19,7 +19,7 @@ export default function Reseption(){
                 <p className='redact'>отменить <br/> прием </p>
 
             </div>
-            <div className='Card_Flex_Item2'>
+            <div className='Reseption_Card_Flex_Item2'>
                 <div className='Card_Info '>
                     <p className='Card_Reseption_Info'>Врач</p> 
                     <p className='Card_Reseption_Info_Value reseption_doctor ' >{ReseptionInfo.doctor}</p>
@@ -30,7 +30,7 @@ export default function Reseption(){
                 </div>
               
             </div>
-            <div className='Card_Flex_Item3'>
+            <div className='Reseption_Card_Flex_Item3'>
                 <div className='Card_Info'>
                     <p className='Card_Reseption_Info'>Питомец</p>
                     <p className='Card_Reseption_Info_Value'>{ReseptionInfo.pet}</p>
