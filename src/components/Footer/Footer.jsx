@@ -45,46 +45,46 @@ export default function Footer(){
                  <div className='footer__list'>
                      <ul className='footer__list__1'>
                      <li>
-                         <Link to='#' className='footer__info'>Главная</Link>
+                                <Link to='#' className='footer__info'>Главная</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Услуги и цены</Link>
+                                <Link to='#' className='footer__info'>Услуги и цены</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>История компании</Link>
+                                <Link to='#' className='footer__info'>История компании</Link>
                          </li>
                          <li>
-                         <Link to='/team' className='footer__info'>Наши специалисты</Link>
+                                <Link to='/team' className='footer__info'>Наши специалисты</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Вакансии</Link>
+                                <Link to='#' className='footer__info'>Вакансии</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Реквизиты</Link>
+                                 <Link to='#' className='footer__info'>Реквизиты</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Онлайн-оплата</Link>
+                                <Link to='#' className='footer__info'>Онлайн-оплата</Link>
                          </li>
                      </ul>
                     <ul className='footer__list__2'>
                          
                          <li>
-                         <Link to='#' className='footer__info'>Отзывы</Link>
+                                <Link to='#' className='footer__info'>Отзывы</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Контакты</Link>
+                                 <Link to='#' className='footer__info'>Контакты</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Груминг-салон</Link>
+                                <Link to='#' className='footer__info'>Груминг-салон</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Косметика</Link>
+                                <Link to='#' className='footer__info'>Косметика</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Новости и акции</Link>
+                                <Link to='#' className='footer__info'>Новости и акции</Link>
                          </li>
                          <li>
-                         <Link to='#' className='footer__info'>Блог</Link>
+                                <Link to='#' className='footer__info'>Блог</Link>
                          </li>
                      </ul>
                  </div>
