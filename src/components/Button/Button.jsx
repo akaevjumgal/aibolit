@@ -1,7 +1,7 @@
-import styles from './Button.module.css'
+import styles from './Button.module.css';
 
 export default function CustomButton({ children }) {
   return (
-    <button className={styles.Button}>{children}</button>
-  )
+    <button type="submit" className={styles.Button}>{children}</button>
+  );
 }
