@@ -1,0 +1,51 @@
+
+.pet_section {
+    margin-top: 100px;
+}
+
+.pets_button {
+    margin-top: 30px;
+    padding-left: 30px;
+    background-color: var(--orange);
+    border: none ;
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 2px 2px 20px 0px #0000001A;
+    cursor: pointer;
+    opacity: 70%;
+    transition-duration: 0.3s;
+
+}
+.pets_button:hover {
+    opacity: 100%;
+}
+.pets_button p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Card_Pets_Info {
+    font-size: 13px;
+    color: var(--light-brown);
+    font-weight: 400;
+}
+.Card_Pets_Info_Value {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.pets_nickname {
+    font-size: 30px;    
+}
+
+
+.Pets_slider_container {
+    margin-top: 30px;
+}
+.Pets_slider {
+    margin-top: 15px;
+}

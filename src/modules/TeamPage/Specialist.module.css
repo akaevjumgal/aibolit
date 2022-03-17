@@ -1,0 +1,41 @@
+
+.SpecialistCard {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    min-height: 150px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transition: 0.2s all;
+    /* box-sizing: border-box; */
+}
+.SpecialistCard:hover {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+
+}
+.SpecialistCardFirst,
+.SpecialistCardSecond {
+    white-space: pre-line;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    color: black;
+    flex-direction: column;
+}
+.SpecialistCardFirst {
+    gap: 10px;
+}
+.SpecialistCardFirst img {
+    width: 100px;
+}
+.SpecialistCardFirst p {
+    color: var(--orange);
+    text-align: center;
+    font-size: 15px;
+}
+.SmallP {
+    font-size: 12px;
+    margin-bottom: 2px;
+    color: #C3B9B5;
+}
