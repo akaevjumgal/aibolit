@@ -1,0 +1,25 @@
+.text {
+    color: #FFC59E;
+    font-size: 25px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+
+.h2{
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+}
+.p{
+
+}

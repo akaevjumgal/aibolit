@@ -12,6 +12,7 @@
   color: white;
   cursor: pointer;
   transition: 0.1s all;
+  margin: 3px;
 }
 .Button:hover {
   background-color: var(--brown);
