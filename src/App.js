@@ -8,7 +8,8 @@ import "swiper/css/bundle";
 import PersonalAccountPage from './pages/PersonalAccountPage/PersonalAccountPage';
 import TeamPage from './pages/teamPage/TeamPage';
 import SpecialistPage from "./pages/SpecialistPage/SpecialistPage";
-
+import Services from './pages/Services/Services';
+import Contacts from "./pages/Cotacts/Contacts";
 const ServicesPage = () => {
   const { setNavigation } = useContext(NavigationContext);
 
@@ -43,13 +44,17 @@ function App() {
               <Route path="/team" element={<TeamPage />} />
               <Route path="team/:specURL" element={<SpecialistPage />} />
               <Route path="/PersonalAccount" element={<PersonalAccountPage/>} />
-
+              <Route path="/ServicesAndPrices" element={<Services />} />
+              <Route path="/Contact" element={<Contacts/>} />
 
             </Route>
         </Route>
       </Routes>
     </NavigationContext.Provider>
+
   );
 }
 
 export default App;
+
+
