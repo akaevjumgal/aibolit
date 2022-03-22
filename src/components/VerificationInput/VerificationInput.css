@@ -18,12 +18,12 @@
 }
 
 .styles_react-code-input__CRulA > input:first-child {
-    border-radius: 30px;
+    border-radius: 30px !important;
 }
 
 .styles_react-code-input__CRulA > input:last-child {
-    border-radius: 30px;
-    border-right: 1px solid var(--brown-bg);
+    border-radius: 30px !important;
+    border-right: 1px solid var(--brown-bg) !important;
 }
 
 .styles_react-code-input__CRulA > input:last-child:focus {
