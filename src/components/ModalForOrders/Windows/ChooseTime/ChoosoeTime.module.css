@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.mainContainer {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.topWrapper {
+  height: 25%;
+}
+.Button {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.Button:hover {
+  color: var(--brown);
+}
+.bottomWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.specImg {
+  width: 70px;
+  height: 70px;
+}
+.specName {
+  font-weight: 500;
+  font-size: large;
+  margin-top: 20px;
+}
+.SelectorsContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

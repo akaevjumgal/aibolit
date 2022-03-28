@@ -43,10 +43,9 @@ export default function FirstPet() {
   };
   const settings = {
     vertical: true,
-    // centerMode:true,
     slidesToShow: 5,
     infinite: false,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
 
   };
   return (

@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.bottomContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 220px;
+  margin-top: 40px;
+}
+.bottomContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.topWrapper {
+  height: 25%;
+}
+.Button {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.Button:hover {
+  color: var(--brown);
+}
+.bottomWrapper {
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}

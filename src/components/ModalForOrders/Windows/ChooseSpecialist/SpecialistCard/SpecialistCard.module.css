@@ -1,0 +1,50 @@
+.CardContainer {
+  display: flex;
+  box-shadow: 2px 2px 20px 0px #0000001a;
+  border-radius: 20px;
+  width: 36%;
+  height: 150px;
+  padding: 20px;
+  gap: 16px;
+  cursor: pointer;
+}
+.textContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+.nameText {
+  font-size: 24px;
+  text-align: start;
+}
+.dateText {
+  font-size: large;
+  text-align: start !important;
+  margin-top: 10px;
+  color: var(--light-brown);
+}
+.imgContainer {
+  position: relative;
+}
+.CardContainer:hover,
+.CardContainer :focus-within {
+  background: var(--orange) !important;
+}
+.CardContainer:hover p {
+  color: white;
+}
+.CardContainerActive {
+  display: flex;
+  box-shadow: 2px 2px 20px 0px #0000001a;
+  border-radius: 20px;
+  width: 36%;
+  height: 150px;
+  padding: 20px;
+  gap: 16px;
+  cursor: pointer;
+  background: var(--orange) !important;
+}
+.CardContainerActive p {
+  color: white;
+}

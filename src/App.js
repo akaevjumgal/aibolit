@@ -8,6 +8,7 @@ import 'swiper/css/bundle';
 import PersonalAccountPage from './pages/PersonalAccountPage/PersonalAccountPage';
 import TeamPage from './pages/teamPage/TeamPage';
 import SpecialistPage from './pages/SpecialistPage/SpecialistPage';
+import OrderModal from './modules/OrdersModal/OrdersModal';
 
 function ServicesPage() {
   const { setNavigation } = useContext(NavigationContext);
@@ -44,6 +45,7 @@ function App() {
             <Route path="/team" element={<TeamPage />} />
             <Route path="team/:specURL" element={<SpecialistPage />} />
             <Route path="/PersonalAccount" element={<PersonalAccountPage />} />
+            <Route path="/asd" element={<OrderModal />} />  
 
           </Route>
         </Route>

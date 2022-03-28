@@ -10,7 +10,7 @@ h2 {
   font-weight: 400;
 }
 
-p{
+.p{
   font-size: medium;
   color: var(--brown);
 }

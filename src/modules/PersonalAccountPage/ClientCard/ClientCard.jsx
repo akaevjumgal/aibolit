@@ -1,11 +1,12 @@
 import './ClientCard.css';
 
 export default function ClientCard() {
+  const phoneNumber = localStorage.getItem('phone');
   const user = {
     FirstName: 'Виктория',
     LastName: 'Иванова',
     MiddleName: 'Александровна',
-    Phone: '+7 999 598-12-45',
+    Phone: phoneNumber || null,
     About: `Живу в Волгограде, очень люблю животных!
                   Мечтаю завести много зверей и построить приют. 
                   Пока что у меня собака, кошка и рыбки :)`,
@@ -36,10 +37,14 @@ export default function ClientCard() {
             <p className="Card_User_Info">Отчество</p>
             <p className="Card_User_Info_Value">{user.MiddleName}</p>
           </div>
-          <div className="Card_Info">
-            <p className="Card_User_Info">Телефон</p>
-            <p className="Card_User_Info_Value">{user.Phone}</p>
-          </div>
+          {user.Phone
+            ? (
+              <div className="Card_Info">
+                <p className="Card_User_Info">Телефон</p>
+                <p className="Card_User_Info_Value">{user.Phone}</p>
+              </div>
+            )
+            : '' }
 
         </div>
         <div className="Card_Flex_Item3">
