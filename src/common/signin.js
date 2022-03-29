@@ -1,5 +1,4 @@
-
 export const ModalScenes = {
-    PhoneNumber: 'PhoneNumber',
-    Verification: 'Verification'
-}
+  PhoneNumber: 'PhoneNumber',
+  Verification: 'Verification',
+};
