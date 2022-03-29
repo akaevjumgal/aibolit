@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import ReactSelect from 'react-select';
 import './Selectors.css';
 
-export default function TimeSelector({ SetValue }) {
+export default function TimeSelector() {
   const ListOfTimes = [
     {
       value: '12:00',
@@ -39,7 +39,6 @@ export default function TimeSelector({ SetValue }) {
       <ReactSelect
         className="DateSelector"
         options={ListOfTimes}
-        onChange={SetValue}
         placeholder="Выберите Время"
       />
     </div>

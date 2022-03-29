@@ -6,11 +6,7 @@ import TimeSelector from './Selectors/TimeSelector';
 
 export default function ChooseTime({ SetScene }) {
   const yourSpec = JSON.parse(localStorage.getItem('choosenSpec'));
-  const [date, setdate] = useState('');
-  const [time, setTime] = useState('');
   function finishedTime() {
-    localStorage.setItem('date', JSON.stringify(date));
-    localStorage.setItem('time', JSON.stringify(time));
     SetScene('Mail');
   }
   return (
@@ -32,8 +28,8 @@ export default function ChooseTime({ SetScene }) {
           <p className={styles.specName}>{yourSpec.name}</p>
         </div>
         <div className={styles.SelectorsContainer}>
-          <DateSelector SetDate={setdate} />
-          <TimeSelector SetValue={setTime} />
+          <DateSelector />
+          <TimeSelector />
         </div>
       </div>
       <div className={styles.bottomWrapper}>

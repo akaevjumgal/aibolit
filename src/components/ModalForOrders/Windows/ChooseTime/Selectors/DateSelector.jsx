@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import ReactSelect from 'react-select';
 import './Selectors.css';
 
-export default function DateSelector({ SetDate }) {
+export default function DateSelector() {
   const today = dayjs();
   const tomorrow = today.add(1, 'day');
 
@@ -22,8 +22,6 @@ export default function DateSelector({ SetDate }) {
         className="DateSelector"
         options={ListOfDates}
         placeholder="Выберите Дату"
-        onChange={SetDate}
-
         getOptionValue={(option) => option.format('')}
         getOptionLabel={(date) => (
           <>
