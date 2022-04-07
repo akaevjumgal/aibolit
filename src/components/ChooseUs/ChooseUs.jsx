@@ -8,7 +8,7 @@ export default function () {
 
   return (
     <section>
-      <h1 className={styles.h1}>Почему выбирают нас ?</h1>
+      <h1 className={styles.title_section}>Почему выбирают нас ?</h1>
       <div className={styles.container}>
         {
           Choise.map((choise) => {
