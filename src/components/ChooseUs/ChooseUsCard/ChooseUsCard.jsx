@@ -6,12 +6,12 @@ export default function ChooseCard({ id, title, img, body }) {
       key={id}
       className={styles.ChooseCard}
     >
-      <h2 className={styles.h2}>
+      <h2 className={styles.chooseTitle}>
         {title}
       </h2>
       <div className={styles.ChooseBody}>
         <img src={img} alt="Image" />
-        <p className={styles.p}>
+        <p className={styles.choiseBody}>
           {body}
         </p>
       </div>

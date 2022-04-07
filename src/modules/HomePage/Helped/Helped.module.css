@@ -1,0 +1,25 @@
+.helped {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.number_helped {
+  font-size: 144px;
+  font-weight: 700 bold;
+  color: var(--brown);
+}
+.text_helped {
+  font-size: 70px;
+  font-family: serif;
+}
+.block_helped {
+  height: 300px;
+  background: url('/public/img/images/image_bird.svg');
+  background-repeat: no-repeat;
+  background-position-x: 320px;
+  background-position-y: 110px;
+}

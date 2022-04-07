@@ -1,0 +1,10 @@
+.back_btn {
+  width: 10px;
+  height: 11px;
+  margin-right: 5px;
+}
+.back {
+  color: var(--orange);
+  font-size: 30px;
+  font-weight: 200;
+}
