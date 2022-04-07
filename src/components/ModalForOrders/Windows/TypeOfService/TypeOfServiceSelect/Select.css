@@ -1,0 +1,110 @@
+.css-1s2u09g-control {
+  width: 480px !important;
+  height: 85px;
+  border-radius: 20px !important;
+  box-shadow: 2px 0px 20px 0px #0000001a;
+  border: 1px solid white !important;
+  z-index: 2 !important;
+}
+.css-1pahdxg-control {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  box-shadow: 2px 0px 20px 0px #0000001a !important;
+  border: 1px solid white !important;
+  border-bottom: unset !important ;
+  z-index: 2 !important;
+  height: 85px;
+}
+.css-b62m3t-container {
+  width: 480px;
+  z-index: 2 !important;
+}
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+.css-qc6sy-singleValue {
+  left: 30px;
+  top: 5px;
+  position: absolute;
+}
+.css-14el2xx-placeholder {
+  position: absolute;
+  left: 30px;
+  top: 5px;
+}
+.css-6j8wv5-Input input {
+  width: auto !important;
+  position: absolute;
+  left: 30px;
+  z-index: 2;
+}
+.css-6j8wv5-Input {
+  width: auto !important;
+}
+.css-319lph-ValueContainer {
+  display: block !important;
+}
+.css-1pndypt-Input input {
+  width: auto !important;
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+}
+.css-1pndypt-Input {
+  display: block !important;
+}
+.css-26l3qy-menu :hover {
+  cursor: pointer !important;
+}
+.css-26l3qy-menu {
+  position: absolute !important;
+}
+.css-26l3qy-menu {
+  border-radius: 0px, 20px.20px, 0px !important;
+  overflow: hidden;
+}
+
+.css-tj5bde-Svg {
+  fill: var(--brown) !important;
+  cursor: pointer;
+}
+.css-tlfecz-indicatorContainer {
+  margin-right: 20px;
+}
+.css-1gtu0rj-indicatorContainer {
+  margin-right: 20px;
+}
+.css-4ljt47-MenuList {
+  max-height: 220px !important  ;
+}
+.css-1n7v3ny-option {
+  background-color: #eae9e94d !important;
+  text-align: start;
+  font-family: 'Futura New';
+}
+.css-yt9ioa-option {
+  text-align: start;
+  font-family: 'Futura New';
+}
+.css-9gakcf-option {
+  background-color: #eae9e94d !important;
+  text-align: start;
+  color: black !important;
+  font-family: 'Futura New';
+}
+.css-4ljt47-MenuList::-webkit-scrollbar {
+  width: 2px;
+  background: #c3b9b51a;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3b9b580;
+  border-radius: 10px;
+  width: 2px;
+}
+.css-26l3qy-menu {
+  box-shadow: 0 2px 20px 0px #0000001a !important;
+  margin-top: unset !important;
+  z-index: 2;
+  border-bottom-right-radius: 20px !important ;
+  border-bottom-left-radius: 20px !important;
+}
