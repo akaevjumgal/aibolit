@@ -11,7 +11,7 @@ const NavigationLinks = [
   },
   {
     label: 'О нас',
-    link: '#',
+    link: '/History',
   },
   {
     label: 'Новости и акции',
