@@ -19,7 +19,7 @@ const NavigationLinks = [
   },
   {
     label: 'Контакты',
-    link: '#',
+    link: '/Contact',
   },
   {
     label: 'Блог',

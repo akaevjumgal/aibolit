@@ -56,7 +56,7 @@ export default function Footer() {
               <Link to="#" className="footer__info">Главная</Link>
             </li>
             <li>
-              <Link to="#" className="footer__info">Услуги и цены</Link>
+              <Link to="/ServicesAndPrices" className="footer__info">Услуги и цены</Link>
             </li>
             <li>
               <Link to="#" className="footer__info">История компании</Link>
