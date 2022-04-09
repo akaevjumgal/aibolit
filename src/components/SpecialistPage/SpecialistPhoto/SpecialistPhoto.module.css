@@ -1,0 +1,27 @@
+.SpecialistPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70%;
+    gap: 20px;
+}
+
+.SpecialistPhoto>img{
+    /* max-width: 250px; */
+    width: 100%;
+}
+.SpecialistPhoto p {
+    font-size: 12px;
+    color: var(--light-brown);
+}
+.SpecialistPhoto a {
+    cursor: pointer;
+    margin-top: 10px;
+    color: var(--orange);
+}
+.SpecialistPhoto button{
+    width: 90%;
+    font-size: 15px;
+    padding: 15px 0;
+}

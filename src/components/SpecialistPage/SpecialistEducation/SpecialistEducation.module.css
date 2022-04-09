@@ -1,0 +1,11 @@
+.SpecialistEducation {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #EDE9E8;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: auto;
+    margin: 10px;
+    margin-left: 0;
+}

@@ -1,0 +1,30 @@
+.OrderModal {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  z-index: 2;
+  cursor: pointer;
+}
+.h2 {
+  font-size: 40px;
+}
+
+.OrderModalContent {
+  padding: 50px;
+  margin: 32px;
+  text-align: center;
+  border-radius: 12px;
+  width: 65%;
+  height: 75%;
+  transition: 0.4s all;
+  background: white;
+  cursor: auto;
+ 
+}

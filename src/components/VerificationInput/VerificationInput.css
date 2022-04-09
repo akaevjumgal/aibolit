@@ -1,0 +1,31 @@
+.styles_react-code-input__CRulA {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.styles_react-code-input__CRulA > input {
+    border: 1px solid var(--brown-bg) !important;
+    border-radius: 30px !important;
+    box-sizing: border-box !important;
+}
+
+.styles_react-code-input-container__tpiKG {
+    display: flex;
+    justify-content: center;
+    width: auto !important;
+}
+
+.styles_react-code-input__CRulA > input:first-child {
+    border-radius: 30px !important;
+}
+
+.styles_react-code-input__CRulA > input:last-child {
+    border-radius: 30px !important;
+    border-right: 1px solid var(--brown-bg) !important;
+}
+
+.styles_react-code-input__CRulA > input:last-child:focus {
+    border-color: #006fff !important;
+}
