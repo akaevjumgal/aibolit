@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.bottomContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+}
+.topWrapper {
+  height: 25%;
+}
+.Button {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.Button:hover {
+  color: var(--brown);
+}
+.bottomWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.MenuList .option {
+  background-color: black !important;
+}
+.css-4ljt47-MenuList {
+  max-width: 220px!important  ;
+}

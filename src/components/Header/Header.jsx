@@ -1,6 +1,8 @@
+import { useEffect, useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import SignInModule from '../../modules/SignIn/SignInModule';
+import Modal from '../Modal/Modal';
 import './Header.css';
-import { Link, useLocation } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 
 const NavigationLinks = [
   {
@@ -9,7 +11,7 @@ const NavigationLinks = [
   },
   {
     label: 'О нас',
-    link: '#',
+    link: '/History',
   },
   {
     label: 'Новости и акции',
@@ -26,9 +28,26 @@ const NavigationLinks = [
 ];
 
 export default function Header() {
+  const [isModalOpen, setModalOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   const [active, setActive] = useState('');
-  const activate = (label) => () => {
-    setActive(label);
+  const activate = (label, link) => (e) => {
+    e.preventDefault();
+    if (link === '/PersonalAccount') {
+      openModal();
+    } else {
+      setActive(label);
+      navigate(link, { replace: true });
+    }
   };
   const { pathname } = useLocation();
 
@@ -46,11 +65,16 @@ export default function Header() {
   return (
     <div className="header__container">
       <div className="container__logo">
-        <Link to="/" className="logo"><img src="/img/Logo.svg" alt="Логотип" /></Link>
+        <Link onClick={() => setActive('')} to="/" className="logo"><img src="/img/Logo.svg" alt="Логотип" /></Link>
       </div>
       <div className="header__info__container">
         {NavigationLinks.map(({ label, link }) => (
-          <Link key={label} to={link} className={getActiveStyles(label)} onClick={activate(label)}>
+          <Link
+            key={label}
+            to={link}
+            className={getActiveStyles(label)}
+            onClick={activate(label, link)}
+          >
             {label}
           </Link>
         ))}
@@ -60,7 +84,11 @@ export default function Header() {
         <img className="place" src="/img/Places.svg  " alt="" />
         <p style={{ marginLeft: '19px' }}>Выберите город</p>
       </div>
-
+      {isModalOpen && (
+      <Modal close={closeModal}>
+        <SignInModule />
+      </Modal>
+      )}
     </div>
   );
 }
