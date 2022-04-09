@@ -9,11 +9,11 @@ export default function HomePage() {
   return (
     <>
       <SectionOne />
-      <Maps />
       <HistoryCompany/>
       <Helped/>
       <ChooseUs />
       <MobileApp/>
+      <Maps />
     </>
   )
 }
