@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import PageLayout from './modules/PageLayout/PageLayout';
 import SidebarLayout from './modules/SidebarLayout/SidebarLayout';
 import NavigationContext from './navigation.context';
@@ -12,6 +12,7 @@ import HistoryPage from './pages/HistoryPage/HistoryPage';
 import OrderModal from './modules/OrdersModal/OrdersModal';
 import Services from './pages/Services/Services';
 import Contacts from './pages/Cotacts/Contacts';
+import AllServices from './services/All-Services/AllServices';
 
 function ServicesPage() {
   const { setNavigation } = useContext(NavigationContext);
@@ -28,21 +29,20 @@ function App() {
     title: '',
     links: [],
   });
+  const { pathname } = useLocation();
+
+  const isServiceAndPricesPage = pathname === '/ServicesAndPrices';
+  const isContactPage = pathname === '/Contact';
+
+  const sidebar = !isContactPage && <SidebarLayout title={navigation.title} links={navigation.links} /> || undefined
 
   return (
     <NavigationContext.Provider value={{ navigation, setNavigation }}>
       <Routes>
-        <Route element={<PageLayout />}>
+        <Route element={<PageLayout bottomContent={isServiceAndPricesPage && <AllServices />} />}>
           <Route index element={<HomePage />} />
 
-          <Route
-            element={(
-              <SidebarLayout
-                title={navigation.title}
-                links={navigation.links}
-              />
-              )}
-          >
+          <Route element={sidebar}>
 
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/team" element={<TeamPage />} />
