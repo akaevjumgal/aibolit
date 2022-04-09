@@ -8,9 +8,12 @@
     cursor: pointer;
   
   }
+
 .card_container {
   display: flex;
+  /* justify-content: space-between; */
 }
+
   .card2 {
     margin-left: 15px  ;
   }

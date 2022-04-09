@@ -10,6 +10,7 @@ import TeamPage from './pages/teamPage/TeamPage';
 import SpecialistPage from "./pages/SpecialistPage/SpecialistPage";
 import Services from './pages/Services/Services';
 import Contacts from "./pages/Cotacts/Contacts";
+import AllServices from './services/All-Services/AllServices';
 const ServicesPage = () => {
   const { setNavigation } = useContext(NavigationContext);
 
@@ -17,7 +18,7 @@ const ServicesPage = () => {
     setNavigation({ title: 'Терапия', links: [<a href ="#">О НАС</a>, <a href ="#">СПЕЦИАЛИСТЫ</a>] })
   }, [])
 
-  return <div style={{height:'400vh'}}>'Service Page'</div>
+  return <div style={{height:'400vh'}}>Service Page</div>;
 }
 
 function App() {
@@ -25,11 +26,12 @@ function App() {
     title: '',
     links: [],
   })
+  let showAllServices = true;
 
   return (
     <NavigationContext.Provider value={{ navigation, setNavigation }}>
       <Routes>
-        <Route element={<PageLayout />}>
+        <Route element={<PageLayout bottomContent={showAllServices ? <AllServices /> : null} />}>
         <Route index element={<HomePage />} />
         
             <Route 
