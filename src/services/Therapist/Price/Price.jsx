@@ -64,33 +64,33 @@ const Prices = [
     price: 500,
   },
   {
-    id: 7,
-    name: 'Прием',
+    id: 13,
+    name: '324sdfdf',
     price: 320,
   },
   {
-    id: 8,
-    name: 'Прием повторный',
+    id: 14,
+    name: 'dfgdfgd',
     price: 220,
   },
   {
-    id: 9,
-    name: 'Консультация без осмотра животного',
+    id: 15,
+    name: 'vhcgyft',
     price: 320,
   },
   {
-    id: 10,
-    name: 'Вызов врача на дом',
+    id: 16,
+    name: 't76dxgfcfg',
     price: 1000,
   },
   {
-    id: 11,
-    name: 'Полная выписка из истории болезни',
+    id: 17,
+    name: 'r56drfcgfcg',
     price: 500,
   },
   {
-    id: 12,
-    name: 'Консультация по медицинским документам',
+    id: 18,
+    name: '456dfgxfg',
     price: 500,
   }
 ]
@@ -108,11 +108,26 @@ const getPages = (listLength, perPage) => {
   return pages
 }
 
-function App() {
-  const [current,setCurrent] = useState(1)
-  
-  const [currentOffset, setOffset] = useState(1);
-  console.log (currentOffset)
+const PricePageItem = ({ page, active, setPage }) => {
+  const activeStyles = active ? 'activePage' : 'Page';
+
+  return (
+    <div className={activeStyles} onClick={setPage(page)}>
+      {page}
+    </div>
+  )
+}
+
+const PricePages = ({ pages, currentPage, setPage }) => {
+  return <div style={{display: 'flex', gap: '1rem', justifyContent: 'flex-end'}}>
+    {pages.map((page) => (
+      <PricePageItem key={page} page={page} active={page === currentPage} setPage={setPage} />
+    ))}
+  </div>
+};
+
+function App() {  
+  const [currentPage, setCurrentPage] = useState(1);
   // const styles = {
   //   display: 'flex',
   //   justifyContent: 'space-between',
@@ -123,13 +138,10 @@ function App() {
   // }
 
   const setPage = (page) => () => {
-    setOffset(page)
-    setCurrent (page)
+    setCurrentPage(page)
   }
-  
 
-
-  const indexOfLastItem = currentOffset * PricesPerPage
+  const indexOfLastItem = currentPage * PricesPerPage
   const indexOfFirstItem = indexOfLastItem - PricesPerPage;
   const pages = getPages(Prices.length, PricesPerPage)
   
@@ -137,27 +149,21 @@ function App() {
     <div id="price" style={{ width: '60vw' }}>
       <h2>Цены</h2>
       <p className="tex">Цены указаны без учета расходных материалов</p>
-      <div style={{display: 'flex', gap: '1rem', justifyContent: 'flex-end'}}>
-        {pages.map((page) =>
-          <div key={page} onClick={setPage(page)}>{page}</div>
-        )}
+      <PricePages pages={pages} currentPage={currentPage} setPage={setPage} />
+      <div style={{ height: '600px' }}>
+        {Prices.slice(indexOfFirstItem, indexOfLastItem)
+          .map(({ id, name, price }) => (
+          <div className="prices"  key={id}>
+            <div>
+              {name}
+            </div>
+            <div>
+              {`${price} ₽`}
+            </div>
+          </div>
+        ))}
       </div>
-      {Prices.slice(indexOfFirstItem, indexOfLastItem)
-        .map(({ id, name, price }) => (
-        <div className="prices"  key={id}>
-          <div>
-            {name}
-          </div>
-          <div>
-            {`${price} ₽`}
-          </div>
-        </div>
-      ))}
-    <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end'}}>
-      {pages.map((page) => 
-        <div className={current === currentOffset ? 'activePage' : 'Page' } key={page} onClick={setPage(page)}>{page}</div>
-      )}
-    </div>
+      <PricePages pages={pages} currentPage={currentPage} setPage={setPage} />
     </div>
   );
 }
