@@ -18,7 +18,6 @@ export default function Therapist() {
         <div id='record'>
             <h2>Записаться на прием к терапевту</h2>
             <Slider {...settings}>
-            {/* <div className='card1'> */}
             <div className='card'>
               <div className='card_texts'>
             <img className='av' src="/img/Ellipse.svg" />
@@ -28,7 +27,6 @@ export default function Therapist() {
             </div>
             </div>  
             </div>      
-            {/* </div>       */}
             <div className='card2'>
             <div className='card'>
               <div className='card_texts'>

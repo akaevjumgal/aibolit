@@ -126,16 +126,8 @@ const PricePages = ({ pages, currentPage, setPage }) => {
   </div>
 };
 
-function App() {  
+function Price() {  
   const [currentPage, setCurrentPage] = useState(1);
-  // const styles = {
-  //   display: 'flex',
-  //   justifyContent: 'space-between',
-  //   margin: '10px 0',
-  //   borderRadius: '20px',
-  //   background: '#EDE9E8',
-  //   cursor: 'pointer'
-  // }
 
   const setPage = (page) => () => {
     setCurrentPage(page)
@@ -168,4 +160,4 @@ function App() {
   );
 }
 
-export default App;
+export default Price;
